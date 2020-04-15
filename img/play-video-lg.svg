@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M71.972136,46.9442719 L86.381966,75.763932 C87.6169123,78.2338245 86.6157905,81.2371897 84.145898,82.472136 C83.4516209,82.8192745 82.6860555,83 81.9098301,83 L53.0901699,83 C50.3287462,83 48.0901699,80.7614237 48.0901699,78 C48.0901699,77.2237745 48.2708954,76.4582092 48.618034,75.763932 L63.027864,46.9442719 C64.2628103,44.4743794 67.2661755,43.4732577 69.736068,44.7082039 C70.703705,45.1920224 71.4883174,45.9766349 71.972136,46.9442719 Z" id="path-1"></path>
+        <filter x="-26.5%" y="-30.7%" width="192.9%" height="192.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="9" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.127868226 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Protips_New" transform="translate(-906.000000, -343.000000)">
+            <g id="Button" transform="translate(676.000000, 167.000000)">
+                <g id="Group-3" transform="translate(230.000000, 176.000000)">
+                    <circle id="Oval" fill="#FFFFFF" opacity="0.193940662" cx="60" cy="60" r="60"></circle>
+                    <circle id="Oval" fill="#FFFFFF" opacity="0.193940662" cx="60" cy="60" r="50"></circle>
+                    <circle id="Oval" fill="#FFFFFF" opacity="0.193940662" cx="60" cy="60" r="40"></circle>
+                    <g id="Triangle" transform="translate(67.500000, 60.500000) rotate(90.000000) translate(-67.500000, -60.500000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
