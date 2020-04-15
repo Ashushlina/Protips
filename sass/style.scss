@@ -21,15 +21,15 @@ body {
 	// padding: 0 24px 0 24px;
 }
 .header-top, .header-hero, .advantages, .header-btns, 
-.about-container, .story-texts, .story-text, .post-cards, .circle-nav,
-.about-span, .form {
+.about-container, .story-texts, .story-text, .post-cards, 
+.circle-nav, .form, .about-span {
 	display: flex;
 }
 .story-text {
 	align-items: flex-start;
 	width: 50%;
 }
-.header-hero, .header-btns, .form, .about-span, .testimonial, .story, .posts {
+.header-hero, .header-btns, .form, .testimonial, .story, .posts {
 	align-items: center;
 }
 .header, .testimonial, .story, .posts {
@@ -44,6 +44,12 @@ body {
 }
 .about-container {
 	justify-content: flex-start;
+}
+.about-span {
+	align-items: flex-end;
+	span {
+		line-height: 28px;
+	}
 }
 
 /*  HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER  */
@@ -87,9 +93,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transition: all 0.3s ease 0s;
 	img {
-		transition: all 0.3s ease 0s;
 		display: none;
 	}
 }
@@ -104,7 +108,6 @@ body {
 	padding: 13px 60px 13px 24px;
 	border-radius: 5px;
 	border: 1px solid transparent;
-	transition: all 0.3s ease 0s;
 }
 .video-icon:after {
 	content: ' ';
@@ -128,9 +131,6 @@ body {
 	width: 80px;
 	height: 80px;
 	transition: all 0.3s ease 0s;
-}
-.box-icon:hover {
-	cursor: pointer;
 }
 .box-icon1 {
 	background: url('../img/icon1.svg') no-repeat;
@@ -174,11 +174,13 @@ body {
 	}
 }
 .img-list {
-    list-style-image: url(../img/list-icon.svg);
-    list-style-position: inside;
     line-height: 48px;
     li {
 		color: $dark-color;
+		list-style: none;
+		background: url(../img/list-icon.svg) no-repeat;
+		background-position: 0 45%;
+		padding-left: 32px;
     }  
 }
 .about-btns {
