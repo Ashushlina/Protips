@@ -115,6 +115,10 @@ body {
   color: #262626;
 }
 
+.header-hero {
+  padding: 100px 0;
+}
+
 .header-hero-text {
   max-width: 450px;
 }
@@ -124,7 +128,8 @@ body {
 }
 
 .header-hero-text p {
-  line-height: 30px;
+  line-height: 1.6;
+  padding: 24px 0;
 }
 
 .header-hero-image {
@@ -222,8 +227,16 @@ body {
   background: url("../img/icon4-hover.svg") no-repeat;
 }
 
+.advantages {
+  padding: 100px 0;
+}
+
 .advantages div {
   max-width: 240px;
+}
+
+.advantages h4 {
+  margin: 24px 0 16px 0;
 }
 
 /*  SECTION 3 SECTION 3 SECTION 3 SECTION 3 SECTION 3 SECTION 3 SECTION 3 SECTION 3  */
@@ -238,6 +251,10 @@ body {
 .about-container-image img {
   width: 100%;
   height: auto;
+}
+
+.about-container-list {
+  margin-left: 5%;
 }
 
 .img-list {
@@ -266,6 +283,7 @@ body {
   background-size: cover;
   min-height: 730px;
   width: 100%;
+  padding: 100px 0;
 }
 
 /*  SECTION 4 SECTION 4 SECTION 4 SECTION 4 SECTION 4 SECTION 4 SECTION 4 SECTION 4  */
@@ -275,6 +293,7 @@ body {
   color: #FF4F4F;
   font-weight: 600;
   font-size: 14px;
+  margin-bottom: 16px;
 }
 
 .blue-span {
@@ -282,6 +301,10 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+}
+
+.testimonial {
+  padding: 100px 0;
 }
 
 .testimonial img {
@@ -293,20 +316,27 @@ body {
   font-size: 32px;
   color: #122649;
   font-weight: 600;
+  margin: 32px 0 8px 0;
 }
 
 .span-h3 {
   color: #544837;
+  margin: 8px 0 32px 0;
 }
 
 /*  SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5  */
 /*  SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5  */
 /*  SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5  */
+.story {
+  padding: 100px 0;
+}
+
 .story-text p {
-  line-height: 30px;
+  line-height: 1.9;
   max-width: 420px;
   font-weight: 400;
   font-size: 16px;
+  margin: 24px 0;
 }
 
 .story-text a {
@@ -316,6 +346,10 @@ body {
 /*  SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6  */
 /*  SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6  */
 /*  SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6  */
+.posts {
+  padding: 100px 0;
+}
+
 .post-cards div {
   max-width: 348px;
 }
@@ -356,6 +390,7 @@ body {
   min-height: 300px;
   background-color: #FF4F4F;
   border-radius: 10px;
+  margin: 100px 0;
 }
 
 .form h4 {
@@ -451,14 +486,16 @@ body {
   background-color: #BCD0E5;
   opacity: 0.5;
   position: absolute;
-  top: -72px;
+  top: 0;
   left: 0;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
+  grid-gap: 24px;
   position: relative;
+  padding: 100px 0;
 }
 
 .footer div {
@@ -506,6 +543,7 @@ h2 {
 
 h3 {
   font-size: 34px;
+  line-height: 1;
 }
 
 h4 {

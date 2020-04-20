@@ -76,13 +76,17 @@ body {
 		}
 	}
 }
+.header-hero {
+	padding: 100px 0;
+}
 .header-hero-text {
 	max-width: 450px;
 	a {
 	display: inline-block;
 	}
 	p{
-	line-height: 30px;
+	line-height: 1.6;
+	padding: 24px 0;
 	}
 }
 .header-hero-image {
@@ -160,6 +164,10 @@ body {
 	div {
 		max-width: 240px;
 	}
+	padding: 100px 0;
+	h4 {
+		margin: 24px 0 16px 0;
+	}
 }
 
 /*  SECTION 3 SECTION 3 SECTION 3 SECTION 3 SECTION 3 SECTION 3 SECTION 3 SECTION 3  */
@@ -172,6 +180,9 @@ body {
 		width: 100%;
 		height: auto;
 	}
+}
+.about-container-list {
+	margin-left: 5%;
 }
 .img-list {
     line-height: 48px;
@@ -195,6 +206,7 @@ body {
 	background-size: cover;
 	min-height: 730px;
 	width: 100%;
+	padding: 100px 0;
 }
 
 /*  SECTION 4 SECTION 4 SECTION 4 SECTION 4 SECTION 4 SECTION 4 SECTION 4 SECTION 4  */
@@ -205,6 +217,7 @@ body {
 	color: $primary-color;
 	font-weight: 600;
 	font-size: 14px;
+	margin-bottom: 16px;
 }
 .blue-span {
 	color: #2C4E8B;
@@ -213,6 +226,7 @@ body {
 	line-height: 30px;
 }
 .testimonial {
+	padding: 100px 0;
 	img {
 		width: 100px;
 		height: 100px;
@@ -222,21 +236,27 @@ body {
 	font-size: 32px;
 	color: #122649;
 	font-weight: 600;
+	margin: 32px 0 8px 0;
 }
 .span-h3 {
 	color: #544837;
+	margin: 8px 0 32px 0;
 }
 
 /*  SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5  */
 /*  SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5  */
 /*  SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5 SECTION 5  */
 
+.story {
+	padding: 100px 0;
+}
 .story-text {
 	p {
-		line-height: 30px;
+		line-height: 1.9;
 		max-width: 420px;
 		font-weight: 400;
 		font-size: 16px;
+		margin: 24px 0;
 	}
 	a {
 		color: #000;
@@ -246,6 +266,9 @@ body {
 /*  SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6  */
 /*  SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6 SECTION 6  */
 
+.posts {
+	padding: 100px 0;
+}
 .post-cards {
 	div {
 		max-width: 348px;
@@ -279,6 +302,7 @@ body {
 	min-height: 300px;
 	background-color: $primary-color;
 	border-radius: 10px;
+	margin: 100px 0;
 	h4 {
 		color: #fff;
 		max-width: 280px;
@@ -343,13 +367,15 @@ body {
 	background-color: #BCD0E5;
 	opacity: 0.5;
 	position: absolute;
-	top: -72px;
+	top: 0;
 	left: 0;
 }
 .footer {
 	display: grid;
 	grid-template-columns: 2fr repeat(3, 1fr);
+	grid-gap: 24px;
 	position: relative;
+	padding: 100px 0;
 	div {
 		flex-basis: 25%;
 	}
@@ -386,6 +412,7 @@ h2 {
 }
 h3 {
 	font-size: 34px;
+	line-height: 1;
 }
 h4 {
 	font-size: 24px;
